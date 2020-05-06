@@ -19,6 +19,8 @@ pipenv run python3 main.py -r all
 Clone this repository. Build it with webpack:
 
 ```bash
+git clone https://github.com/vebyast/ffxiv_crafting_rotation_solver.git
+cd ffxiv_crafting_rotation_solver
 yarn install
 yarn run webpack
 node dist/main.js
